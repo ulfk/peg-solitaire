@@ -1,0 +1,60 @@
+/* Solitaire CSS */
+body {
+   font-family: "Open Sans";
+   margin-left: 80px;
+   margin-top: 50px;
+   color: #333;
+}
+table.gameboard {
+   padding: 15px;
+   border-radius: 7px;
+   border: 3px outset lightgray;
+   background-color: #f8f8f8;
+}
+table.gameboard td {
+   width: 44px;
+   height: 44px;
+   padding: 4px;
+   text-align: center;
+}
+.droppable {
+   background-image: url("solitair_slot.png");
+   width: 44px;
+   height: 44px;
+   border-radius: 22px;
+}
+.draggable {
+   background-image: url("solitair_peg.png");
+   width: 44px;
+   height: 44px;
+   border-radius: 22px;
+   cursor: pointer;
+}
+.message {
+   width: 430px;
+   font-size: 200%;
+   font-weight: bold;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+.hint {
+   width: 430px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   text-align: center;
+}
+.buttondiv {
+   width: 430px;
+   margin-top: 30px;
+}
+.button {
+   font-weight: bold;
+   cursor: pointer;
+   color: rgb(16, 79, 240);
+}
+span.sperator {
+   padding-left: 5px;
+   padding-right: 5px;
+   font-weight: bold;
+}
