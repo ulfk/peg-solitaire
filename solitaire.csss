@@ -18,13 +18,13 @@ table.gameboard td {
    text-align: center;
 }
 .droppable {
-   background-image: url("solitair_slot.png");
+   background-image: url("solitaire_slot.png");
    width: 44px;
    height: 44px;
    border-radius: 22px;
 }
 .draggable {
-   background-image: url("solitair_peg.png");
+   background-image: url("solitaire_peg.png");
    width: 44px;
    height: 44px;
    border-radius: 22px;
