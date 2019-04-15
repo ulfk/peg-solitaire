@@ -4,6 +4,7 @@ body {
    margin-left: 80px;
    margin-top: 50px;
    color: #333;
+   text-align: center;
 }
 table.gameboard {
    padding: 15px;
@@ -58,3 +59,7 @@ span.sperator {
    padding-right: 5px;
    font-weight: bold;
 }
+.gamebox {
+   display: inline-block;
+}
+
