@@ -32,7 +32,6 @@ table.gameboard td {
    cursor: pointer;
 }
 .message {
-   width: 430px;
    font-size: 200%;
    font-weight: bold;
    margin-top: 20px;
@@ -40,13 +39,11 @@ table.gameboard td {
    text-align: center;
 }
 .hint {
-   width: 430px;
    margin-top: 15px;
    margin-bottom: 15px;
    text-align: center;
 }
 .buttondiv {
-   width: 430px;
    margin-top: 30px;
 }
 .button {
